@@ -1,0 +1,19 @@
+.SelectedFilter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0 0 0 15px;
+}
+
+.SelectedFilter-filter {
+    width: fit-content;
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.SelectedFilter-filters {
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,45 @@
+.CharacterInfo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.CharacterInfo-parent-container {
+    display: flex;
+}
+
+.CharacterInfo-filter-parent{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.CharacterInfo-filter{  
+        text-align: left;
+        margin: 10px 20px;
+        width: 200px;
+        border: 1px solid black;
+        padding: 0px 5px 15px 5px;
+}
+
+.CharacterInfo-search-select-container{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .CharacterInfo-parent-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CharacterInfo-filter-parent{
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+}
